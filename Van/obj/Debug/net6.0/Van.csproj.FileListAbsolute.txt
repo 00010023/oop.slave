@@ -1,0 +1,15 @@
+/Users/uwussimo/Developer/Slave/Van/bin/Debug/net6.0/Van
+/Users/uwussimo/Developer/Slave/Van/bin/Debug/net6.0/Van.deps.json
+/Users/uwussimo/Developer/Slave/Van/bin/Debug/net6.0/Van.runtimeconfig.json
+/Users/uwussimo/Developer/Slave/Van/bin/Debug/net6.0/Van.dll
+/Users/uwussimo/Developer/Slave/Van/bin/Debug/net6.0/ref/Van.dll
+/Users/uwussimo/Developer/Slave/Van/bin/Debug/net6.0/Van.pdb
+/Users/uwussimo/Developer/Slave/Van/obj/Debug/net6.0/Van.csproj.AssemblyReference.cache
+/Users/uwussimo/Developer/Slave/Van/obj/Debug/net6.0/Van.GeneratedMSBuildEditorConfig.editorconfig
+/Users/uwussimo/Developer/Slave/Van/obj/Debug/net6.0/Van.AssemblyInfoInputs.cache
+/Users/uwussimo/Developer/Slave/Van/obj/Debug/net6.0/Van.AssemblyInfo.cs
+/Users/uwussimo/Developer/Slave/Van/obj/Debug/net6.0/Van.csproj.CoreCompileInputs.cache
+/Users/uwussimo/Developer/Slave/Van/obj/Debug/net6.0/Van.dll
+/Users/uwussimo/Developer/Slave/Van/obj/Debug/net6.0/ref/Van.dll
+/Users/uwussimo/Developer/Slave/Van/obj/Debug/net6.0/Van.pdb
+/Users/uwussimo/Developer/Slave/Van/obj/Debug/net6.0/Van.genruntimeconfig.cache
