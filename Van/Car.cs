@@ -5,9 +5,9 @@ namespace Van
     public class Car
     {
         private string id { get; }
-        public string type { get; }
+        private string type { get; }
         private float price { get; }
-        public string model { get; }
+        private string model { get; }
         private string brand { get; }
         private string condition { get; }
         private int year { get; }
@@ -23,9 +23,14 @@ namespace Van
             this.year = year;
         }
 
-        public Car GetCar()
+        public string GetType()
         {
-            return this;
+            return this.type;
+        }
+        
+        public string GetModel()
+        {
+            return this.model;
         }
         
         public override string ToString()

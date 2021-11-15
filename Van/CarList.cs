@@ -24,7 +24,7 @@ namespace Van
             List<Car> industrialCars = new List<Car>();
             foreach (Car car in Car)
             {
-                if (car.type == "Industrial")
+                if (car.GetType() == "Industrial")
                 {
                     industrialCars.Add(car);
                 }
@@ -37,7 +37,7 @@ namespace Van
             List<Car> passengerCars = new List<Car>();
             foreach (Car car in Car)
             {
-                if (car.type == "Passenger")
+                if (car.GetType() == "Passenger")
                 {
                     passengerCars.Add(car);
                 }
@@ -50,7 +50,7 @@ namespace Van
             List<Car> carsByModel = new List<Car>();
             foreach (Car car in Car)
             {
-                if (car.model == model)
+                if (car.GetModel() == model)
                 {
                     carsByModel.Add(car);
                 }
@@ -88,7 +88,7 @@ namespace Van
                 {
                     foreach (Car car in carsByModel)
                     {
-                        if (car.type == "Passenger")
+                        if (car.GetType() == "Passenger")
                         {
                             carsByIndustry.Add(car);
                         }
@@ -98,7 +98,7 @@ namespace Van
                 {
                     foreach (Car car in carsByModel)
                     {
-                        if (car.type == "Industrial")
+                        if (car.GetType() == "Industrial")
                         {
                             carsByIndustry.Add(car);
                         }
