@@ -4,7 +4,7 @@ namespace Van
 {
     public class Car
     {
-        private string Id { get; }
+        private int Id { get; }
         private string Type { get; }
         private float Price { get; }
         private string Model { get; }
@@ -12,7 +12,7 @@ namespace Van
         private string Condition { get; }
         private int Year { get; }
         
-        public Car(string id, string type, float price, string model, string brand, string condition, int year)
+        public Car(int id, string type, float price, string model, string brand, string condition, int year)
         {
             this.Id = id;
             this.Type = type;
@@ -35,7 +35,7 @@ namespace Van
         
         public override string ToString()
         {
-            return $"{Id} | {Price.ToString("C")} | {Model} | {Condition} | {Brand} |{Year.ToString()}";
+            return $"{Id.ToString()} | {Price.ToString("C")} | {Model} | {Condition} | {Brand} |{Year.ToString()}";
         }
     }
 }

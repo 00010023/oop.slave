@@ -8,10 +8,10 @@ namespace Van
     {
         private static List<Car> Car = new List<Car>();
 
-        public void AddCar(Car car)
+        public void AddCar(int id, string type, float price, string model, string brand, string condition, int year)
         {
-            Car.Add(car);
-            Console.WriteLine("Adding the car: " + car);
+            Car.Add(new Car( id,  type,  price,  model,  brand,  condition,  year));
+            Console.WriteLine("Adding the car: " + model);
         }
         
         public List<Car> GetAllCars()

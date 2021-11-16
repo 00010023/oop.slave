@@ -7,9 +7,9 @@ namespace Van
         private static void Main()
         {
             CarList cars = new CarList();
-            cars.AddCar(new Car("Ford", "Passenger", 10000, "Zetec Edition", "Chevrolet", "Excellent", 2000));
-            cars.AddCar(new Car("Nexia", "Passenger", 7000, "3/4", "Chevrolet", "Good", 2019));
-            cars.AddCar(new Car("Lada", "Industrial", 7000, "3/4", "Chevrolet", "Good", 2019));
+            cars.AddCar(0, "Passenger", 10000, "Zetec Edition", "Chevrolet", "Excellent", 2000);
+            cars.AddCar(1, "Passenger", 7000, "3/4", "Chevrolet", "Good", 2019);
+            cars.AddCar(2, "Industrial", 7000, "3/4", "Chevrolet", "Good", 2019);
             
             Console.WriteLine("Welcome to the Car Dealership!");
             Console.WriteLine("Here is a list of our cars:");
