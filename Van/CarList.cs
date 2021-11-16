@@ -62,17 +62,16 @@ namespace Van
         {
             if (string.IsNullOrWhiteSpace(model) && !string.IsNullOrWhiteSpace(industry))
             {
-                if (industry == "Passenger" || industry == "passenger")
+                switch (industry)
                 {
-                    return GetPassengerCars();
-                }
-                else if (industry == "Industrial" || industry == "industrial")
-                {
-                    return GetIndustrialCars();
-                }
-                else
-                {
-                    return GetAllCars();
+                    case "Passenger":
+                    case "passenger":
+                        return GetPassengerCars();
+                    case "Industrial":
+                    case "industrial":
+                        return GetIndustrialCars();
+                    default:
+                        return GetAllCars();
                 }
             }
             else if (!string.IsNullOrWhiteSpace(model) && string.IsNullOrWhiteSpace(industry))
