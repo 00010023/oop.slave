@@ -4,7 +4,7 @@ namespace Van
 {
     class Program
     {
-        static void Main()
+        private static void Main()
         {
             CarList cars = new CarList();
             cars.AddCar(new Car("Ford", "Passenger", 10000, "Zetec Edition", "Chevrolet", "Excellent", 2000));
@@ -17,7 +17,7 @@ namespace Van
             
             Console.WriteLine("\n");
             // The moment of truth my dear slaves!
-            var search = cars.GetCarsByArguments(industry: "Industrial");
+            var search = cars.GetCarsByArguments(model: "Zetec");
             Console.WriteLine("Here is a list of our cars matching your search:");
             foreach (var car in search)
             {
