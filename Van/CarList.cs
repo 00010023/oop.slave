@@ -57,54 +57,48 @@ namespace Van
             }
             return carsByModel;
         }
+        
+        public List<Car> SearchCarsByModel(string model)
+        {
+            List<Car> carsByModel = new List<Car>();
+            foreach (Car car in Car)
+            {
+                if (car.GetCarModel().Contains(model))
+                {
+                    carsByModel.Add(car);
+                }
+            }
+            return carsByModel;
+        }
+
+        public List<Car> SearchCarsByIndustry(string industry)
+        {
+            switch (industry)
+            {
+                case "Passenger":
+                case "passenger":
+                    return GetPassengerCars();
+                case "Industrial":
+                case "industrial":
+                    return GetIndustrialCars();
+                default:
+                    return GetAllCars();
+            }
+        }
 
         public List<Car> GetCarsByArguments(string model = "", string industry = "")
         {
             if (string.IsNullOrWhiteSpace(model) && !string.IsNullOrWhiteSpace(industry))
             {
-                switch (industry)
-                {
-                    case "Passenger":
-                    case "passenger":
-                        return GetPassengerCars();
-                    case "Industrial":
-                    case "industrial":
-                        return GetIndustrialCars();
-                    default:
-                        return GetAllCars();
-                }
+                return SearchCarsByIndustry(industry);
             }
             else if (!string.IsNullOrWhiteSpace(model) && string.IsNullOrWhiteSpace(industry))
             {
-                return GetCarsByModel(model);
+                return SearchCarsByModel(model);
             }
             else if (!string.IsNullOrWhiteSpace(model) && !string.IsNullOrWhiteSpace(industry))
             {
-                List<Car> carsByModel = GetCarsByModel(model);
-                List<Car> carsByIndustry = new List<Car>();
-        
-                if (industry == "Passenger")
-                {
-                    foreach (Car car in carsByModel)
-                    {
-                        if (car.GetCarType() == "Passenger")
-                        {
-                            carsByIndustry.Add(car);
-                        }
-                    }
-                }
-                else
-                {
-                    foreach (Car car in carsByModel)
-                    {
-                        if (car.GetCarType() == "Industrial")
-                        {
-                            carsByIndustry.Add(car);
-                        }
-                    }
-                }
-                
-                return carsByModel.Intersect(carsByIndustry).ToList();
+                return SearchCarsByModel(model).Intersect(SearchCarsByIndustry(industry)).ToList();
             }
             else
             {
