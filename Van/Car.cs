@@ -32,7 +32,7 @@ namespace Van
         {
             return this.Model;
         }
-        
+
         public override string ToString()
         {
             return $"{Id.ToString()} | {Price.ToString("C")} | {Model} | {Condition} | {Brand} |{Year.ToString()}";

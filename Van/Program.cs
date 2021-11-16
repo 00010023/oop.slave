@@ -17,7 +17,10 @@ namespace Van
             
             Console.WriteLine("\n");
             // The moment of truth my dear slaves!
-            var search = cars.GetCarsByArguments(model: "Zetec");
+            
+            Console.WriteLine("What would you like to search?");
+            var searchInputModel = Console.ReadLine();
+            var search = cars.GetCarsByArguments(model: searchInputModel);
             Console.WriteLine("Here is a list of our cars matching your search:");
             foreach (var car in search)
             {
