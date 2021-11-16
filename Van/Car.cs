@@ -4,38 +4,38 @@ namespace Van
 {
     public class Car
     {
-        private string id { get; }
-        private string type { get; }
-        private float price { get; }
-        private string model { get; }
-        private string brand { get; }
-        private string condition { get; }
-        private int year { get; }
+        private string Id { get; }
+        private string Type { get; }
+        private float Price { get; }
+        private string Model { get; }
+        private string Brand { get; }
+        private string Condition { get; }
+        private int Year { get; }
         
         public Car(string id, string type, float price, string model, string brand, string condition, int year)
         {
-            this.id = id;
-            this.type = type;
-            this.price = price;
-            this.model = model;
-            this.brand = brand;
-            this.condition = condition;
-            this.year = year;
+            this.Id = id;
+            this.Type = type;
+            this.Price = price;
+            this.Model = model;
+            this.Brand = brand;
+            this.Condition = condition;
+            this.Year = year;
         }
 
         public string GetCarType()
         {
-            return this.type;
+            return this.Type;
         }
         
         public string GetCarModel()
         {
-            return this.model;
+            return this.Model;
         }
         
         public override string ToString()
         {
-            return $"{id} | {price.ToString()} | {model} | {condition} | {year.ToString()}";
+            return $"{Id} | {Price.ToString("C")} | {Model} | {Condition} | {Brand} |{Year.ToString()}";
         }
     }
 }

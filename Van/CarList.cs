@@ -57,7 +57,7 @@ namespace Van
             }
             return carsByModel;
         }
-        
+
         public List<Car> GetCarsByArguments(string model = "", string industry = "")
         {
             if (string.IsNullOrWhiteSpace(model) && !string.IsNullOrWhiteSpace(industry))
