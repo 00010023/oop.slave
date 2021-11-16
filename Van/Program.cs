@@ -27,7 +27,7 @@ namespace Van
             // YAY IT WORKS!!! UWU GANG RISE UP!!!
             for (int i = 0; i < 5; i++)
             {
-                Console.WriteLine("UwU UwU UwU UwU UwU UwU UwU");
+                Console.WriteLine("UwU OwO UwU OwO UwU OwO UwU");
             }
         }
     }
