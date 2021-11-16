@@ -4,7 +4,7 @@ namespace Van
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             CarList cars = new CarList();
             cars.AddCar(new Car("Ford", "Passenger", 10000, "Zetec Edition", "Chevrolet", "Excellent", 2000));

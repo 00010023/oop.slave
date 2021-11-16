@@ -23,12 +23,12 @@ namespace Van
             this.year = year;
         }
 
-        public string GetType()
+        public string GetCarType()
         {
             return this.type;
         }
         
-        public string GetModel()
+        public string GetCarModel()
         {
             return this.model;
         }
