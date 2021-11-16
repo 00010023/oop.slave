@@ -23,6 +23,12 @@ namespace Van
             {
                 Console.WriteLine(car);
             }
+            
+            // YAY IT WORKS!!! UWU GANG RISE UP!!!
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine("UwU UwU UwU UwU UwU UwU UwU");
+            }
         }
     }
 }
