@@ -1,4 +1,5 @@
-﻿<Properties StartupConfiguration="{9BBD9D00-7776-44B4-8B23-77434E894C0E}|Default">
+﻿<Properties StartupConfiguration="{D5A0788A-BFB2-47B3-AC89-4674A98431BB}|Default">
+  <MonoDevelop.Ide.ItemProperties.Billy PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +11,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Van PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
