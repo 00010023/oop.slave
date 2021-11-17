@@ -1,0 +1,15 @@
+/Users/uwussimo/Developer/Slave/Billy/bin/Debug/net6.0/Billy
+/Users/uwussimo/Developer/Slave/Billy/bin/Debug/net6.0/Billy.deps.json
+/Users/uwussimo/Developer/Slave/Billy/bin/Debug/net6.0/Billy.runtimeconfig.json
+/Users/uwussimo/Developer/Slave/Billy/bin/Debug/net6.0/Billy.dll
+/Users/uwussimo/Developer/Slave/Billy/bin/Debug/net6.0/ref/Billy.dll
+/Users/uwussimo/Developer/Slave/Billy/bin/Debug/net6.0/Billy.pdb
+/Users/uwussimo/Developer/Slave/Billy/obj/Debug/net6.0/Billy.csproj.AssemblyReference.cache
+/Users/uwussimo/Developer/Slave/Billy/obj/Debug/net6.0/Billy.GeneratedMSBuildEditorConfig.editorconfig
+/Users/uwussimo/Developer/Slave/Billy/obj/Debug/net6.0/Billy.AssemblyInfoInputs.cache
+/Users/uwussimo/Developer/Slave/Billy/obj/Debug/net6.0/Billy.AssemblyInfo.cs
+/Users/uwussimo/Developer/Slave/Billy/obj/Debug/net6.0/Billy.csproj.CoreCompileInputs.cache
+/Users/uwussimo/Developer/Slave/Billy/obj/Debug/net6.0/Billy.dll
+/Users/uwussimo/Developer/Slave/Billy/obj/Debug/net6.0/ref/Billy.dll
+/Users/uwussimo/Developer/Slave/Billy/obj/Debug/net6.0/Billy.pdb
+/Users/uwussimo/Developer/Slave/Billy/obj/Debug/net6.0/Billy.genruntimeconfig.cache
