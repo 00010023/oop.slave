@@ -1,0 +1,4 @@
+/Users/uwussimo/Developer/Slave/Billy/obj/Release/net6.0/Billy.GeneratedMSBuildEditorConfig.editorconfig
+/Users/uwussimo/Developer/Slave/Billy/obj/Release/net6.0/Billy.AssemblyInfoInputs.cache
+/Users/uwussimo/Developer/Slave/Billy/obj/Release/net6.0/Billy.AssemblyInfo.cs
+/Users/uwussimo/Developer/Slave/Billy/obj/Release/net6.0/Billy.csproj.CoreCompileInputs.cache

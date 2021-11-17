@@ -17,9 +17,13 @@ namespace Van
             cars.DisplayCars();
             Console.Write("\n");
             
-            Console.Write("What would you like to search: ");
+            Console.Write("What industry would you like to search: ");
+            var searchInputIndustry = Console.ReadLine();
+            
+            Console.Write("What model would you like to search: ");
             var searchInputModel = Console.ReadLine();
-            var search = cars.GetCarsByArguments(model: searchInputModel);
+            
+            var search = cars.GetCarsByArguments(industry: searchInputIndustry, model: searchInputModel);
             Console.WriteLine("Here is a list of our cars matching your search:");
             foreach (var car in search)
             {
